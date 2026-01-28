@@ -40,7 +40,8 @@ O layout conta com **modo claro e modo escuro**, incluindo animação suave na t
 
 ---
 
-## 📁 portfolio-page.html
+## 📁 [portfolio-page.html](https://github.com/andre-fcsantos/andre-fcsantos-portfolio/blob/03d64b4f8d23b577601af6b3bc74e909565dac7f/portfolio-page.html)
+
 
 
 
