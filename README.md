@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio pessoal!
 Este projeto foi desenvolvido para apresentar meus trabalhos, habilidades técnicas e trajetória na transição para a área de **Desenvolvimento Web / Tecnologia**.
 
 🔗 **Acesse o site:**  
-https://SEU_USUARIO.github.io/portfolio/
+https://andre-fcsantos/andre-fcsantos-portfolio.git
 
 ---
 
@@ -41,5 +41,6 @@ O layout conta com **modo claro e modo escuro**, incluindo animação suave na t
 ---
 
 ## 📁 Estrutura do projeto
+
 
 
