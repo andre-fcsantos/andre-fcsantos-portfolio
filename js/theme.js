@@ -8,3 +8,5 @@ toggle.addEventListener("click", () => {
     ? "☀️ Light mode"
     : "🌙 Dark mode";
 });
+
+

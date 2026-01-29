@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" lang="EN">
 <head>
   <meta charset="utf-8">
-  <title>André Santos | Portfólio</title>
+  <title data-i18n="name">André Santos | Portfólio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--Normalize para padronização-->
@@ -33,20 +33,27 @@
   <div class="sidebar">
     <div class="sidebar-text text-center">
       <img class="img-fluid rounded-circle mb-3"
-           src="/assets/img-andre/WhatsApp Image 2026-01-10 at 11.21.47 (1).jpeg"
+           src="/WhatsApp Image 2026-01-10 at 11.21.47 (1).jpeg"
            alt="Foto André">
 
       <h1>André Santos</h1>
-      <p class="text-muted">Desenvolvedor Full Stack (em formação)</p>
+      <p class="text-muted" data-i18n="phrase">Desenvolvedor Full Stack (em formação)</p>
 
       <div class="d-flex justify-content-center mt-3">
         <a class="mx-2" href="https://github.com/andre-fcsantos" title="GitHub"><i class="fab fa-github"></i></a>
         <a class="mx-2" href="https://www.linkedin.com/in/andre-f-c-santos-56942824b/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <button id="themeToggle" class="btn btn-sm btn-light mt-4">
-  🌙 Dark mode
-</button>
+      </div class="sidebar-buttons">
+     <button id="themeToggle" class="btn btn-sm btn-light">
+    🌙 Dark mode
+  </button>
+
+  <button id="languageToggle" class="btn btn-sm btn-outline-light">
+    🇺🇸 EN
+  </button>
     </div>
+
+     
+    
   </div>
 
   <!-- CONTEÚDO -->
@@ -54,8 +61,8 @@
 
     <!-- SOBRE -->
     <div class="container bg-white py-5">
-      <h2 class="mb-4">Sobre mim</h2>
-      <p>
+      <h2 class="mb-4" data-i18n="about_me">Sobre mim</h2>
+      <p data-i18n="description">
         Sou desenvolvedor em formação, em transição de carreira para a área de
         Tecnologia da Informação. Atualmente estudo Java, Angular e fundamentos
         de desenvolvimento web, buscando minha primeira oportunidade como
@@ -100,31 +107,31 @@
 
     <!-- PORTFÓLIO -->
     <div class="container bg-white py-5">
-      <h2 class="mb-4">Projetos</h2>
+      <h2 class="mb-4" data-i18n="projects">Projetos</h2>
 
       <div class="row">
         <div class="col-md-6 mb-4">
           <div class="card">
-            <img src="img/projetos/projeto1.jpg" class="card-img-top" alt="Projeto 1">
+            <img src="img/projetos/projeto1.jpg" class="card-img-top" alt="Projeto 1" data-i18n="boxer_pro_1">
             <div class="card-body">
-              <h5 class="card-title">Projeto 1</h5>
-              <p class="card-text">
+              <h5 class="card-title" data-i18n="project_1">Projeto 1</h5>
+              <p class="card-text" data-i18n="proj_1_desc">
                 Página web desenvolvida com HTML e CSS.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Ver projeto</a>
+              <a href="#" class="btn btn-sm btn-primary" data-i18n="view_1">Ver projeto</a>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 mb-4">
           <div class="card">
-            <img src="img/projetos/projeto2.jpg" class="card-img-top" alt="Projeto 2">
+            <img src="img/projetos/projeto2.jpg" class="card-img-top" alt="Projeto 2" data-i18n="boxer_pro_2">
             <div class="card-body">
-              <h5 class="card-title">Projeto 2</h5>
-              <p class="card-text">
+              <h5 class="card-title" data-i18n="project_2">Projeto 2</h5>
+              <p class="card-text" data-i18n="proj_2_desc">
                 Projeto simples para estudo de layout responsivo.
               </p>
-              <a href="#" class="btn btn-sm btn-primary">Ver projeto</a>
+              <a href="#" class="btn btn-sm btn-primary" data-i18n="view_2">Ver projeto</a>
             </div>
           </div>
         </div>
@@ -133,7 +140,7 @@
 
     <!-- CONTATO -->
     <div class="container bg-white py-5">
-      <h2 class="mb-4">Contato</h2>
+      <h2 class="mb-4" data-i18n="contact">Contato</h2>
 
       <p>
         📧 Email: <strong>aandre.fcsantos@hotmail.com</strong><br>
@@ -151,5 +158,6 @@
 </div>
 <script src="js/theme.js"></script>
 <script src="script.js"></script>
+<script src="js/lang.js"></script>
 </body>
 </html>

@@ -65,6 +65,23 @@ button {
   padding: 40px 20px;
 }
 
+.mt-3 {
+  padding: 10px; 
+}
+
+.sidebar-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.sidebar-buttons button {
+  width: 140px;
+}
+
+
 .sidebar img {
   border: 3px solid rgba(255, 255, 255, 0.4);
 }
@@ -187,7 +204,7 @@ h2 {
    DARK MODE
 ================================ */
 body.dark-mode {
-  background-image: url(/assets/img-andre/foto-spacecode.webp);
+  background-image: url(/foto-spacecode.webp);
   --bg-main: #0f172a;
   --bg-card: #020617;
   --text-main: #374151;
@@ -206,6 +223,14 @@ body.dark-mode .card {
 
 body.dark-mode .sidebar {
   background: linear-gradient(180deg, #020617, #020617);
+}
+
+body.dark-mode .btn-primary {
+  background-color:var(--primary);
+}
+
+body.dark-mode .btn-primary:hover {
+  background-color: var(--primary-dark);
 }
 
 
